@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--设置页面的字符集-->
+    <meta charset="utf-8">
+    <!--强制浏览器按照最新的标准去渲染当前的网页-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--
+        viewport：视口，支持响应式布局。
+     width: 初始宽度与设备的宽度相同
+     initial-scale：初始的缩放比，1:1
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>厚溥旅游网首页</title>
+
+    <!-- 1. 导入bootstrap中的css样式文件 -->
+    <link href="../layui/css/layui.css" rel="stylesheet" media="all">
+    <!-- 2. 导入jQuery框架 -->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!-- 3. 导入bootstrap的js文件 -->
+    <script src="../layui/layui.js"></script>
+    <!--  引入自定义的CSS文件-->
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!--头部-->
+    <div class="layui-fluid d">
+        <div class="layui-row">
+            <img width="100%" src="../img/top_banner.jpg" alt="">
+        </div>
+        <div class="layui-row">
+            <div class="layui-col-sm3">
+                <img style="width: 200px;margin: 15px 0px 15px 8px;" src="../img/logo.jpg" alt="">
+            </div>
+            <div class="layui-col-sm6 search">
+                <input type="text" placeholder="请输入路线名称">
+                <button><b>搜索</b></button>
+            </div>
+            <div class="layui-col-sm3">
+                <img style="width: 200px;margin: 10px 0px 0px 100px;" src="../img/hotel_tel.png" alt="">
+            </div>
+        </div>
+        <div class="layui-row nav">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item "><a href="">首页</a></li>
+                <li class="layui-nav-item "><a href="">门票</a></li>
+                <li class="layui-nav-item "><a href="">国内游</a></li>
+                <li class="layui-nav-item "><a href="">境外游</a></li>
+                <li class="layui-nav-item "><a href="">港澳游</a></li>
+                <li class="layui-nav-item "><a href="">抱团定制</a></li>
+                <li class="layui-nav-item "><a href="">全球自由行</a></li>
+                <li class="layui-nav-item "><a href="">国际电话卡</a></li>
+                <li class="layui-nav-item "><a href="">商业保险</a></li>
+                <li class="layui-nav-item "><a href="">本地导游</a></li>
+            </ul>
+        </div>
+        <div class="layui-row">
+            <div class="layui-carousel" id="test1">
+                <div carousel-item>
+                    <div><img style="width: 100%;" src="../img/desc_banner1.jpg" alt=""></div>
+                    <div><img style="width: 100%;"  src="../img/desc_banner2.jpg" alt=""></div>
+                    <div><img style="width: 100%;"  src="../img/desc_banner3.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--主体-->
+    <div class="layui-container"style="width: 80%;">
+        <!--精选-->
+        <div class="layui-row">
+            <div class="layui-row icon">
+                <img src="../img/icon_1.jpg" alt="">
+                <span>厚浦精选</span>
+            </div>
+            <div class="layui-row jianxi">
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/jingxuan.jpg" alt="">
+                    <p>上海直飞三亚5天4夜</p><br>
+                    <span style="color: red">￥899</span>
+                </div>
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/jingxuan.jpg" alt="">
+                    <p>上海直飞三亚5天4夜</p><br>
+                    <span style="color: red">￥899</span>
+                </div>
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/jingxuan.jpg" alt="">
+                    <p>上海直飞三亚5天4夜</p><br>
+                    <span style="color: red">￥899</span>
+                </div>
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/jingxuan.jpg" alt="">
+                    <p>上海直飞三亚5天4夜</p><br>
+                    <span style="color: red">￥899</span>
+                </div>
+            </div>
+        </div>
+        <!-- 国内-->
+        <div class="layui-row ">
+            <div class="layui-row icon" style="margin-top: -5px">
+                <img src="../img/icon_2.jpg" alt="">
+                <span>国内游</span>
+            </div>
+            <div class="layui-row jianxi">
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/guonei_big.jpg" alt="">
+                </div>
+                <div class="layui-col-sm9">
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                </div>
+                <div class="layui-col-sm9" style="margin-top: 12px">
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/guonei.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 境外-->
+        <div class="layui-row ">
+            <div class="layui-row icon" style="margin-top: -5px">
+                <img src="../img/icon_3.jpg" alt="">
+                <span>境外游</span>
+            </div>
+            <div class="layui-row jianxi">
+                <div class="layui-col-sm3 jingxuan">
+                    <img src="../img/jingwai_big.jpg" alt="">
+                </div>
+                <div class="layui-col-sm9">
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                </div>
+                <div class="layui-col-sm9" style="margin-top: 12px">
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                    <div class="layui-col-sm4 jingxuan">
+                        <img src="../img/jingwai.jpg" alt="">
+                        <p>上海直飞三亚5天4夜</p><br>
+                        <span style="color: red">￥799</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="layui-fluid d">
+        <div class="row">
+            <img style="width: 100%" src="../img/footer_service.png" alt="">
+        </div>
+        <div class="row">
+            <div class="company">
+                武汉厚浦教育科技股份有限公司 版权所有  Copyright 2006-2020, All Rights Reserved 鄂ICP备11005077号-1
+            </div>
+        </div>
+    </div>
+    <script src="../layui/layui.all.js"></script>
+    <script>
+        //由于模块都一次性加载，因此不用执行 layui.use() 来加载对应模块，直接使用即可：
+        ;!function(){
+            var carousel = layui.carousel;
+            //建造实例
+            carousel.render({
+                elem: '#test1'
+                ,width: '100%' //设置容器宽度
+                ,height: '512px'
+                ,arrow: 'always' //始终显示箭头
+                //,anim: 'updown' //切换动画方式
+            });
+
+            
+        }();
+    </script>
+</body>
+</html>

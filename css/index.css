@@ -1,0 +1,57 @@
+*{margin: 0px;padding: 0px;}
+.d{padding: 0px;}
+
+.jianxi{
+    margin-top: 5px;
+}
+.search{
+    margin: 15px 0px 20px 0px;
+}
+.search input{
+    margin-left: 200px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid orange;
+}
+.search button{
+    margin-left: -4px;
+    width: 80px;
+    height: 32px;
+    background-color: orange;
+    border: 2px solid orange;
+    font-size: 16px;
+}
+.nav{
+
+}
+.nav ul{
+    background-color: orange;
+}
+.nav ul li{
+    margin-left: 4%;
+}
+.nav ul li a{
+    font-size: 14px;
+}
+
+.icon{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid orange;
+}
+
+.jingxuan{
+    padding-top: 3px;
+    text-align: center;
+}
+.jingxuan p{
+    margin-top: 18px;
+}
+.company{
+    padding-top: 16px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+    background-color: orange;
+    height: 40px;
+}
